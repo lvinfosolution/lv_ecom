@@ -1,0 +1,99 @@
+/* ====================FILTER COLUMN====================== */
+.jdh38 .filter-col{
+    width: 275px;
+}
+.jdh38 .filter-col .top-row{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.filter-col .accordion {
+    /* background-color: #eee; */
+    color: #1f1f1f;
+    /* font-family: Arial; */
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: 0.4s;
+  }
+  
+/* .filter-col  .active, .filter-col .accordion:hover {
+    background-color: #ccc;
+  } */
+  
+  .filter-col  .accordion:after {
+    /* content: '\002B'; */
+    font-family: "Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important;
+    content: '\f078';
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    float: right;
+    margin-left: 5px;
+    transition: .3s ease-in-out;
+  }
+  
+  .filter-col .active:after {
+    transform: rotate(-180deg);
+    transition: .3s ease-in-out;
+  }
+  
+  .filter-col  .panel {
+    padding: 0 12px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .filter-col  .panel p{
+      font-size: 14px;
+  }
+  .filter-col  .panel p .fa-search{
+      font-size: 13px;
+  }
+  .filter-col  .panel input:focus{
+    outline: none;
+  }
+  .filter-col .panel ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  .filter-col .panel ul li{
+      margin: 6px 0;
+  }
+  .filter-col .panel ul li div{
+    /* position: relative; */
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin-right: 10px;
+  }
+  .filter-col .panel .more-link{
+      font-size: 12px;
+  }
+  .filter-col .price-row small.title{
+      font-size: 12px;
+  }
+.filter-col .toast{
+    width: auto;
+    font-size: 13px;
+    background-color: #D7D7D7;
+    padding: 5px 10px;
+}
+/* .filter-col .toast .toast-body{
+    padding: 5px;
+} */
+.filter-col .toast button{
+    font-size: 10px;
+}

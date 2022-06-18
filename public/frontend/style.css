@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width:1400px){
+    .container-lg{max-width: 1122px ;}
+}
+
+/* =================TOPBAR SECTION==================== */
+#topbar .container-lg{
+    border-bottom: .5px solid rgba(255,255,255,0.5);
+}
+
+/* =======================MENU AREA======================== */
+#menu input:focus{
+    border: none;
+    outline: none;
+}
+.nav .badge{
+    font-size: 10px;
+    padding: 2px;
+    position: absolute;
+    right: 195px;
+    top: 68px;
+}
+
+/* =========================DROPDOWN/CATEGORY MENU======================= */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown-toggle::after {
+    content: none;
+  }
+#category-menu .img-box{
+    width: 65px;
+    height: 65px;
+}
+
+
+/* =======================BANNER CAROUSEL==================== */
+.banner-carousal{
+    background-color: #F1F3F6;
+}
+#carouselExampleCaptions .carousel-control-next-icon, #carouselExampleCaptions .carousel-control-prev-icon{
+    height: 2rem;
+    width: 2rem;
+  }
+  #carouselExampleCaptions .carousel-indicators .active {
+    height: 5px;
+    opacity: 1;
+    /* background-color: #fed700 !important; */
+    background-color: #0D6EFD !important;
+  }
+  #carouselExampleCaptions button.carousel-control-next, #carouselExampleCaptions button.carousel-control-prev {
+    background-color: #fff;
+    height: 30%;
+    top: 32%;
+    width: 3.5%;
+  }
+  @media (max-width: 800px){
+    .carousel-indicators{
+        margin-bottom: 0;
+    }
+    .carousel-indicators button{
+        border: none !important;
+    }
+  }
+
+
+/* ================ADD AREA 1===================== */
+.ad-area-1{
+    background-color: #F1F3F6;
+}
+
+/* =================ADD AREA 2====================== */
+.ad-area-2{
+    background-color: #F1F3F6;
+}
+
+/* ===================DEALS OF THE DAY========================= */
+.d-o-d{
+    background-color: #F1F3F6;
+}
+.d-o-d .heading{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.d-o-d .dod-carousel .item{
+    width: 200px;
+    /* height: 300px; */
+}
+.d-o-d .dod-carousel .img-box{
+    width: 120px;
+    height: 150px;
+    /* border: 1px solid #000; */
+}
+.d-o-d .dod-carousel .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* transition: all .5s ease-in-out; */
+}
+.d-o-d .dod-carousel a{
+    text-decoration: none;
+}
+.d-o-d .dod-carousel .card:hover img{
+    transform: scale(1.05, 1.05);
+    /* transition: all .5s ease-in-out; */
+}
+.d-o-d .owl-nav button.owl-next{  
+    right: -21px; 
+    position: absolute;
+    top: 65px;
+    background-color: #F1F3F6;
+    padding: 20px 10px !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.d-o-d .owl-nav button.owl-prev{
+    left: -21px;
+    position: absolute;
+    top: 65px;
+    background-color: #F1F3F6;
+    padding: 20px 10px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.d-o-d .owl-nav button span{
+    font-size: 60px;
+    line-height: 26px;
+}
+
+
+/* ===================SUGGESTED ITEMS========================= */
+.suggested-item{
+    background-color: #F1F3F6;
+}
+.suggested-item .heading{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.suggested-item .sgti-carousel .item{
+    width: 200px;
+    /* height: 300px; */
+}
+.suggested-item .sgti-carousel .img-box{
+    width: 120px;
+    height: 150px;
+    /* border: 1px solid #000; */
+}
+.suggested-item .sgti-carousel .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* transition: all .5s ease-in-out; */
+}
+.suggested-item .sgti-carousel a{
+    text-decoration: none;
+}
+.suggested-item .owl-nav button.owl-next{  
+    right: -21px; 
+    position: absolute;
+    top: 65px;
+    background-color: #F1F3F6;
+    padding: 20px 10px !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.suggested-item .owl-nav button.owl-prev{
+    left: -21px;
+    position: absolute;
+    top: 65px;
+    background-color: #F1F3F6;
+    padding: 20px 10px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.suggested-item .owl-nav button span{
+    font-size: 60px;
+    line-height: 26px;
+}
+.suggested-item .card .discount{
+    font-size: 13px;
+}
+.suggested-item .card .whslt-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.suggested-item .card .fa-star{
+    font-size: 9px;
+    margin-left: 2px;
+}
+.suggested-item .card .badge{
+    padding: 4px 3px;
+}
+
+/* =================PRODUCT LIST======================= */
+.jdh38{
+    background-color: #F1F3F6;
+}
+.jdh38 .heading{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.jdh38 .heading nav{
+    font-size: 12px;
+}
+.jdh38 .heading .breadcrumb a{
+    text-decoration: none;
+    color: gray;
+}
+.jdh38 .heading .title{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.jdh38 .heading .sorting a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+.jdh38 .heading .sorting a.active{
+    color: #0D6EFD;
+    font-weight: 500;
+}
+.jdh38 .card .img-box{
+    width: 100%;
+    height: 350px;
+    /* height: auto; */
+    /* border: 1px solid #000; */
+}
+.jdh38 .card .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* transition: all .5s ease-in-out; */
+}
+.jdh38 .card a{
+    text-decoration: none;
+}
+.jdh38 .card .discount{
+    font-size: 13px;
+}
+.jdh38 .card .whslt-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.jdh38 .card .fa-star{
+    font-size: 9px;
+    margin-left: 2px;
+}
+.jdh38 .card .badge{
+    padding: 4px 3px;
+}
+.jdh38 .card .fa-heart{
+    font-size: 23px;
+}
+.jdh38 .card .brand{
+    font-weight: 600;
+}
+.jdh38 .card{
+    transition: box-shadow .5s ease-in-out;
+}
+.jdh38 .card:hover{
+    transition: box-shadow .5s ease-in-out;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
